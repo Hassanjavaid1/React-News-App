@@ -1,0 +1,37 @@
+.main_img{
+    width: 45rem;
+}
+.sub_headline{
+    background-repeat: no-repeat;
+    height: 29rem;
+}
+.slide_title{
+    margin-top: 15rem;
+    margin-left: 2rem;
+}
+
+.headline_title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+    text-overflow: ellipsis;
+}
+.time_category{
+        display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+.news_category {
+    background: #FFCC00;
+color: black;
+border-radius: 0rem;
+}
+.news_time{
+    color: white;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+
+

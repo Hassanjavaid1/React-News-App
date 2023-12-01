@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 2rem;
+}
+form {
+  display: flex;
+}
+#heading {
+  font-size: 3.5rem;
+}
+.big {
+  color: #ffcc00;
+  font-weight: 700;
+}
+#nav_input {
+  padding: 1.1rem;
+  width: 19rem;
+  font-size: 1rem;
+  border: 1px solid;
+}
+#nav_input:focus {
+  outline: none;
+}
+#nav_input:hover {
+  box-shadow: 0px 0px 2px 2px #c5bf10;
+}
+#input_btn {
+  padding: 0.5rem;
+  font-size: 2rem;
+  transition: 0.2s;
+  background-color: #ffcc00;
+  border: 1px solid;
+}
+#input_btn:hover {
+  background-color: #b9970e;
+}
+.authentication {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+}
+#login {
+  padding: 0.9rem;
+  font-size: 1.1rem;
+  background: #ffcc00;
+  border: 1px solid grey;
+}
+#login:hover {
+  background-color: #b9970e;
+}
+.today_date {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+
+/* ////////////////////// */
+
+/* SubNavbar */
+
+/* ////////////////////// */
+
+    
+.sub_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.6rem;
+    gap: 1rem;
+}
+.subNavbar{
+    font-size: 1.3rem;
+    font-weight: 500;
+    background: #1E2024;
+    font-family: sans-serif;
+}
+.category{
+  text-decoration: none;
+  color: white;
+  padding: 1.3rem;
+  transition: 0.1s;
+}
+.category:hover{
+  background-color: #FFCC00;
+}
