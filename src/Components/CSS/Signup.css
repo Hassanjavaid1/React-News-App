@@ -1,0 +1,29 @@
+.signup_form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub_login{
+    font-size: 1.3rem;
+    background-color: #FFCC00;
+    border: 0px;
+    font-weight: 500;
+    padding: 0.7rem;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+.sub_login:hover{
+    background-color: #dab00c;
+    scale: 1.1;
+}
+#regular_news{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #9A9DA2;
+}
+
+.signup{
+    margin-top: 1rem;
+}

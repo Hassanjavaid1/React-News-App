@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: #EDEFF4;
+}
+.scroll-to-top{
+  background: #FFCC00!important;
+  border-radius: 0px!important;
+  z-index: 999!important;
+  margin-bottom: 2rem;
+}
+
+
+.loader {
+  border: 8px solid #cfc1c1;
+  border-radius: 50%;
+  border-top: 8px solid #ffb715;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,60 @@
+.tag_search {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 0.7rem;
+  justify-content: center;
+  margin-top: 9rem;
+  margin-bottom: 5rem;
+}
+#tag_search_img {
+    width: 18rem;
+    height: 14rem;
+    object-fit: cover;
+}
+.sub_tag_search {
+  background-color: #ffffff;
+  width: min-content;
+  box-shadow: 0rem 0rem 0.4rem #00000057;
+}
+.tag_time_search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#tag_search_type {
+  background: #ffcc00;
+  color: black;
+  border-radius: 0rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.2rem;
+  white-space: nowrap;
+    max-width: 9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#tag_date {
+  font-weight: 400;
+  color: #343131;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 7.5rem;
+  overflow: hidden;
+}
+.tag_search_title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+.tag_search_description {
+  color: #878a8f;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.tag_news_detail {
+  margin-left: 0.5rem;
+  margin-top: 0.7rem;
+}

@@ -1,0 +1,65 @@
+.tech_container {
+  background-color: #ffffff;
+  width: 24rem;
+  padding: 1rem;
+  height: fit-content;
+  margin-top: 1.1rem;
+  border-top: 0.1rem solid #dfda3c;
+}
+.tech_image {
+  height: 6.7rem;
+  width: 8rem;
+  object-fit: cover;
+}
+.tech {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.tech_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gainsboro;
+  overflow: hidden;
+}
+.tech_time_category {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.tech_category {
+  border-radius: 0;
+  color: black;
+  font-weight: 600;
+  background: #ffcc00;
+  font-size: 0.8rem;
+  height: 1.6rem;
+}
+.tech_category:hover {
+  text-decoration: underline;
+}
+.tech_time {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #9a9da2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.tech_time:hover {
+  text-decoration: underline;
+}
+.tech_title {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+  color: #201e1e;
+}
+.tech_title:hover {
+  text-decoration: underline;
+}
+.sub_tech_news {
+  margin-left: 1rem;
+}

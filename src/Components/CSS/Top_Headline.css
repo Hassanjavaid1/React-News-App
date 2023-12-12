@@ -1,0 +1,138 @@
+.top_headline {
+  margin: auto;
+  margin-top: 3rem;
+  width: 70rem;
+  margin-bottom: 5rem;
+}
+h1 {
+  border: 1px solid white;
+  background: white;
+  padding: 0.5rem;
+  border-left: 0.4rem solid #ffcc00;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  text-indent: 0.4rem;
+  color: #31404b;
+  border-radius: 0.2rem;
+}
+.breaking_news {
+  background-color: #1e2024;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 1.4rem;
+}
+#top_breaking_news {
+  margin: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 55rem;
+  max-width: 55rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.breaking_title {
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 0;
+  z-index: 2;
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 1.6rem;
+  cursor: grab;
+}
+.react-slideshow-container .default-nav:first-of-type {
+  left: 74rem;
+  background-color: #ffcc00;
+}
+.react-slideshow-container .default-nav:last-of-type {
+  background-color: #ffcc00;
+}
+
+.top_headline_img {
+  object-fit: cover;
+  width: 17rem;
+  height: 20rem;
+  display: flex;
+  box-shadow: inset 0rem -4rem 6rem 3px #000000bd;
+  background-position: center;
+  background-size: cover;
+}
+
+.top_headline_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+.sub_top_headline_title:hover {
+  text-decoration: underline;
+}
+.top_news_time {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.top_news_time:hover{
+  text-decoration: underline;
+}
+.top_headline_category {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.top_news_category {
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 0;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.top_news_category:hover {
+  text-decoration: underline;
+}
+.top_headline_position {
+  margin-left: 6.7rem;
+  margin-right: 7.1rem;
+  overflow: hidden;
+  margin-top: -3rem;
+}
+.slick-list {
+  width: 18rem !important;
+  overflow: visible;
+}
+.slick-next {
+  right: 2rem;
+}
+.slick-next::before {
+  font-size: 2.6rem;
+  color: #ffcc00;
+}
+.slick-prev {
+  left: 0.6rem;
+  z-index: 99;
+}
+
+.slick-prev::before {
+  font-size: 2.6rem;
+  color: #ffcc00;
+}
+
+
+.slick-dots{
+  display: none!important;
+}

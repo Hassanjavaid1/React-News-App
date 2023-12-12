@@ -1,37 +1,75 @@
-.main_img{
-    width: 45rem;
+.sub_headline {
+  background-repeat: no-repeat;
+  height: 29rem;
 }
-.sub_headline{
-    background-repeat: no-repeat;
-    height: 29rem;
+.main_img {
+  cursor: grabbing;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  box-shadow: rgba(11, 12, 0, 0.164) 0rem -2rem 14.7rem 13.3rem inset;
 }
-.slide_title{
-    margin-top: 15rem;
-    margin-left: 2rem;
+.slide_title {
+  margin-top: 9rem;
+  margin-left: 2rem;
 }
 
-.headline_title{
-    font-size: 2rem;
-    font-weight: 700;
-    color: white;
-    font-family: sans-serif;
-    text-overflow: ellipsis;
+.headline_title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  font-family: sans-serif;
+  text-overflow: ellipsis;
+  display: flex;
+  text-align: center;
+  width: fit-content;
 }
-.time_category{
-        display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-    gap: 1rem;
+.time_category {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 1rem;
+  justify-content: center;
+  line-height: 3;
 }
 .news_category {
-    background: #FFCC00;
-color: black;
-border-radius: 0rem;
+  background: #ffcc00;
+  color: black;
+  border-radius: 0rem;
+  font-size: 1.2rem;
 }
-.news_time{
-    color: white;
-    background-color: transparent;
-    font-size: 1.2rem;
+.news_time {
+  color: white;
+  background-color: transparent;
+  font-size: 1.6rem;
 }
 
-
+.react-slideshow-container .default-nav:first-of-type {
+  left: 3rem;
+}
+.react-slideshow-container .nav:last-of-type:hover {
+  background: #ffcc00;
+}
+.react-slideshow-container .nav:last-of-type {
+  right: 3rem;
+  padding: 0rem;
+}
+.react-slideshow-container .nav:last-of-type:hover {
+  background: #ffcc00;
+}
+.react-slideshow-container .default-nav:first-of-type:hover {
+  background: #ffcc00;
+}
+.react-slideshow-wrapper.slide {
+  overflow: visible;
+  width: 100%;
+}
+.react-slideshow-container {
+  overflow: hidden;
+}
+.react-slideshow-container .default-nav:first-of-type {
+  left: 74rem;
+}
