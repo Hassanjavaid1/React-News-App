@@ -59,7 +59,7 @@ function App() {
   }, []);
   useEffect(() => {}, [businessData]);
   return (
-    <>
+    <basename="/react-news-app">
       <Navbar />
       <Suspense fallback={<div className="loader"></div>}>
         <>
