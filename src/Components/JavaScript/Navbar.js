@@ -7,11 +7,10 @@ import { FaFacebook } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io5";
 import { TbBrandFiverr } from "react-icons/tb";
 import { SiUpwork } from "react-icons/si";
-import { SiFreelancer } from "react-icons/si";
+import { FaLinkedinIn } from "react-icons/fa";
 import Main_footer from "./Main_footer";
 
-
-function Navbar({setsearchTag,searchTag,setsearchData}) {
+function Navbar({ setsearchTag, searchTag, setsearchData }) {
   const date = new Date();
   const str = date.toDateString();
   const [time, settime] = useState(`${str}`);
@@ -21,17 +20,24 @@ function Navbar({setsearchTag,searchTag,setsearchData}) {
     <>
       <div className="nav_container">
         <div className="navbar">
-     
-            <div id="heading">
-              <span className="big">BIG</span>
-              <span className="bignews">NEWS</span>
-            </div>
-        
-          <div className="nav_search">
+          <div id="heading">
+            <span className="big">BIG</span>
+            <span className="bignews">NEWS</span>
           </div>
+
+          <div className="nav_search"></div>
           <div className="authentication">
             <div className="today_date">{time}</div>
             <div className="nav_social_icon">
+              <a
+                href="https://www.linkedin.com/in/hassan-javaid-aa7610290/"
+                className="sub_nav_social_icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <FaLinkedinIn className="react_nav_icon" />
+              </a>
               <a
                 href="https://hassanjavaid1.github.io/MyPortfolioWebsite"
                 className="sub_nav_social_icon"
@@ -75,15 +81,6 @@ function Navbar({setsearchTag,searchTag,setsearchData}) {
               >
                 {" "}
                 <SiUpwork className="react_nav_icon" />
-              </a>
-              <a
-                href="https://www.freelancer.com/u/Hassanjavaid121"
-                className="sub_nav_social_icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <SiFreelancer className="react_nav_icon" />
               </a>
             </div>
           </div>

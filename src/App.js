@@ -19,7 +19,7 @@ const News_Banner = React.lazy(() =>
 );
 
 function App() {
-  const ApiUrl = "5c5d00e5c5ac482cbe4ddc59aef9ef68";
+  const ApiUrl = "9fd798bdeb2b4581bb04ee949a5720eb";
   const [businessData, setbusinessData] = useState([]);
   const [headlineData, setHeadlineData] = useState([]);
   const [techData, setTechData] = useState([]);
@@ -44,7 +44,7 @@ function App() {
       //Fetching Technology News
 
       const tech_response = await fetch(
-        `https://newsapi.org/v2/everything?q=technology&sortBy=popularity&apiKey=5c5d00e5c5ac482cbe4ddc59aef9ef68`
+        `https://newsapi.org/v2/everything?q=technology&sortBy=popularity&apiKey=9fd798bdeb2b4581bb04ee949a5720eb`
       );
       const tech_data = await tech_response.json();
       setTechData(tech_data.articles);

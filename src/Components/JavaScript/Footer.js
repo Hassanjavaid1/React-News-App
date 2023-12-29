@@ -1,13 +1,12 @@
 import React from "react";
 import "../CSS/Footer.css";
-
+import { FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { CgWebsite } from "react-icons/cg";
 import { RiFacebookFill } from "react-icons/ri";
 import { LuGithub } from "react-icons/lu";
 import { TbBrandFiverr } from "react-icons/tb";
 import { SiUpwork } from "react-icons/si";
-import { SiFreelancer } from "react-icons/si";
 import Main_footer from "./Main_footer";
 
 
@@ -31,6 +30,14 @@ function Footer({setcategoryTag}) {
             <div className="sub_footer_social_media">
               <h4 className="Footer_social_follow">Follow Me</h4>
               <div className="footer_social_media">
+                <a
+                  href="https://www.linkedin.com/in/hassan-javaid-aa7610290/"
+                  className="footer_icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn  className="react_footer_icon" />
+                </a>
                 <a
                   href="https://web.facebook.com/profile.php?id=61551678367934"
                   className="footer_icon"
@@ -63,14 +70,7 @@ function Footer({setcategoryTag}) {
                 >
                   <SiUpwork className="react_footer_icon" />
                 </a>
-                <a
-                  href="https://www.freelancer.com/u/Hassanjavaid121"
-                  className="footer_icon"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <SiFreelancer className="react_footer_icon" />
-                </a>
+              
               </div>
             </div>
           </div>
