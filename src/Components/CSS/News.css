@@ -64,8 +64,8 @@
   background: #ffcc00;
 }
 .react-slideshow-wrapper.slide {
-  overflow: visible;
-  width: 100%;
+  overflow: unset!important;
+  width: 100%!important;
 }
 .react-slideshow-container {
   overflow: hidden;
