@@ -66,6 +66,7 @@
 .react-slideshow-wrapper.slide {
   overflow: unset!important;
   width: 100%!important;
+  max-width: 100%;
 }
 .react-slideshow-container {
   overflow: hidden;
