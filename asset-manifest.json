@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/React-News-App/static/css/main.7abfa692.css",
-    "main.js": "/React-News-App/static/js/main.869b3a70.js",
+    "main.js": "/React-News-App/static/js/main.bdde86f1.js",
     "static/css/797.5470a224.chunk.css": "/React-News-App/static/css/797.5470a224.chunk.css",
     "static/js/797.3effb68e.chunk.js": "/React-News-App/static/js/797.3effb68e.chunk.js",
     "static/css/405.772cdfc3.chunk.css": "/React-News-App/static/css/405.772cdfc3.chunk.css",
     "static/js/405.58d36cf4.chunk.js": "/React-News-App/static/js/405.58d36cf4.chunk.js",
-    "static/css/399.a926e758.chunk.css": "/React-News-App/static/css/399.a926e758.chunk.css",
+    "static/css/399.ca50c04e.chunk.css": "/React-News-App/static/css/399.ca50c04e.chunk.css",
     "static/js/399.efe5e1c5.chunk.js": "/React-News-App/static/js/399.efe5e1c5.chunk.js",
     "static/js/787.32ca1217.chunk.js": "/React-News-App/static/js/787.32ca1217.chunk.js",
     "static/js/308.0f88a969.chunk.js": "/React-News-App/static/js/308.0f88a969.chunk.js",
@@ -17,12 +17,12 @@
     "static/media/slick.woff": "/React-News-App/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/React-News-App/index.html",
     "main.7abfa692.css.map": "/React-News-App/static/css/main.7abfa692.css.map",
-    "main.869b3a70.js.map": "/React-News-App/static/js/main.869b3a70.js.map",
+    "main.bdde86f1.js.map": "/React-News-App/static/js/main.bdde86f1.js.map",
     "797.5470a224.chunk.css.map": "/React-News-App/static/css/797.5470a224.chunk.css.map",
     "797.3effb68e.chunk.js.map": "/React-News-App/static/js/797.3effb68e.chunk.js.map",
     "405.772cdfc3.chunk.css.map": "/React-News-App/static/css/405.772cdfc3.chunk.css.map",
     "405.58d36cf4.chunk.js.map": "/React-News-App/static/js/405.58d36cf4.chunk.js.map",
-    "399.a926e758.chunk.css.map": "/React-News-App/static/css/399.a926e758.chunk.css.map",
+    "399.ca50c04e.chunk.css.map": "/React-News-App/static/css/399.ca50c04e.chunk.css.map",
     "399.efe5e1c5.chunk.js.map": "/React-News-App/static/js/399.efe5e1c5.chunk.js.map",
     "787.32ca1217.chunk.js.map": "/React-News-App/static/js/787.32ca1217.chunk.js.map",
     "308.0f88a969.chunk.js.map": "/React-News-App/static/js/308.0f88a969.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.7abfa692.css",
-    "static/js/main.869b3a70.js"
+    "static/js/main.bdde86f1.js"
   ]
 }
